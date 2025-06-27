@@ -2,9 +2,7 @@
 
 This project demonstrates how to instrument a Python **monolithic Flask app** using **OpenTelemetry** for logging, tracing, and metrics, and visualize them in **SigNoz**.
 
-## What I Did
-
-I extended the base project by:
+## Extended the base project by:
 
 1. Configuring the Flask app to export:
    - Traces (`opentelemetry-sdk`, `opentelemetry-exporter-otlp-proto-http`)
@@ -22,7 +20,7 @@ I extended the base project by:
 
 4. Added a reusable shell script `run_with_otel.sh` to consistently launch the instrumented app with all exporters enabled.
 
-5. Updated access URL for Codespaces: the app can be accessed at:
+5. Access URL for Codespaces: the app can be accessed at:
    ```
    https://<your-codespace-name>-5000.app.github.dev/rolldice
    ```
