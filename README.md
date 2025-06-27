@@ -28,6 +28,12 @@ This project demonstrates how to instrument a Python **monolithic Flask app** us
 6. Captured key screenshots proving successful integration (see below).
 
 ---
+## Install Dependencies
+Before running the app, install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Docker Compose Setup
 
