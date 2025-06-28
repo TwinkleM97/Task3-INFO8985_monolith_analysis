@@ -36,6 +36,7 @@ pip install -r requirements.txt
 ```
 
 ## Docker Compose Setup
+Start SigNoz in a separate terminal
 
 ```bash
 cd signoz/deploy/docker
